@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+joblib
+tqdm
+dvc[all]
+dvclive
+matplotlib
+seaborn
+mlflow

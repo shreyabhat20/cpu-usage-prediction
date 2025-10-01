@@ -1,0 +1,13 @@
+stages:
+  train:
+    cmd: python src/train.py --data data/cpu_dataset.csv --out models/cpu_usage_model.pkl
+    deps:
+      - data/cpu_dataset.csv
+      - src/train.py
+      - params.yaml
+    outs:
+      - models/cpu_usage_model.pkl
+    params:
+      - n_estimators
+      - test_size
+      - model_type

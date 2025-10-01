@@ -23,3 +23,6 @@ plots/
 # OS files
 Thumbs.db
 .DS_Store
+
+data/dataset.csv
+models/cpu_model.pkl

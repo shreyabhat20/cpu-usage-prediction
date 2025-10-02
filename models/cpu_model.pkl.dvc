@@ -1,0 +1,5 @@
+outs:
+- md5: dba47bcad138e3308480f2cfe8e7ec19
+  size: 1536570090
+  hash: md5
+  path: cpu_model.pkl

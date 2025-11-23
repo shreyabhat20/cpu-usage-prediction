@@ -18,11 +18,9 @@ __pycache__/
 
 # MLflow local files
 mlruns/
-plots/
 
 # OS files
 Thumbs.db
 .DS_Store
 
 data/dataset.csv
-models/cpu_model.pkl
